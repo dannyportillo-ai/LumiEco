@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    background-color: #f4f7f4;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    background: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.menu{
+     display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #555;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #03aa19;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px 40px;
+}
+
+.texto {
+    width: 55%;
+}
+
+.imagen-prototipo {
+    width: 35%;
+    text-align: right;
+}
+
+.imagen-prototipo img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn{
+    background: #0d5b18;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+box-shadow: 25px 25px 10px rgba(0, 0, 0, 0.2);
+}
+.botones{
+    display: flex;
+    gap: 15px;
+}
+
+
+.btn-principal{
+    background: #0d5b18;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-principal:hover{
+    transform:scale(1.05);
+    box-shadow: 25px 25px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secundario{
+    background: white;
+    color: #0d5b18;
+    border: 2px solid #0d5b18;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-secundario:hover{
+    transform:scale(1.05);
+    box-shadow: 25px 25px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(3, 170, 25);
+}
+
+p{
+color: #444;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+h2{
+   font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  color: rgb(3, 170, 25);
+ }
+
+.parallax-container {
+    width: 100%;
+    height: 700px;
+}
+
+.parallax-container div {
+    background-image: url(fondoparallax.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 700px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadros{
+  display: flex;
+gap: 20px;
+}
+
+.cuadro{
+  flex: 1;
+ height: 180px;
+ background-color: white;
+ border: 1px solid rgb(3, 170, 25);
+ border-radius: 10px;
+ padding: 20px;
+ text-align: center;
+ transition: 0.3s;
+}
+
+.cuadro:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.cuadro h3{
+  color: #28713b;
+  font-size: 20px;
+}
+
+.cuadro h2{
+ color: rgb(3, 170, 25); 
+}
+
+.cuadro p{
+  color: #28713b;
+  font-size: 16px;
+}
+
+.anatomia {
+    padding: 50px 30px;
+    background-color: #f8f8fa;
+}
+
+.anatomia h2 {
+    text-align: left;
+    color: #194d27;
+    margin-bottom: 35px;
+}
+
+.anatomia-cuadros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.anatomia-cuadro { 
+    background-color: white; 
+    border: 1px solid rgb(3, 170, 25); 
+    border-radius: 10px; 
+    padding: 20px; 
+    min-height: 105px; 
+    box-sizing: border-box; 
+    transition:0.3s,
+}
+
+.anatomia-cuadro:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.anatomia-cuadro h3 {
+    margin: 0;
+    color: #222;
+    font-family: "Oswald", sans-serif;
+    font-size: 17px;
+    text-align: left;
+     font-family: "Cinzel", serif;
+}
+
+.anatomia-cuadro hr { 
+    border: none; 
+    border-top: 2px solid #b8cbb9; 
+    margin: 12px 0; 
+}
+
+.anatomia-cuadro p {
+    color: #666;
+    text-align: left;
+    font-size: 14px;
+    margin: 0 0 15px 0;
+}
+
+.anatomia-cuadro span {
+    color: #668a6b;
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #e5e6eb;
+    border-radius: 0 0 40px 40px;
+    padding: 35px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    border-bottom: 8px solid #9da3ad;
+}
+
+.footer-logo {
+    color: #315b32;
+    font-family: "Black Ops One", sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer-enlaces {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-enlaces a {
+    text-decoration: none;
+    color: #555;
+    font-family: "Share Tech", sans-serif;
+    font-size: 14px;
+}
+
+.footer-enlaces a:hover {
+    color: #315b32;
+}
+
+.copyright {
+    color: #555;
+    font-family: "Share Tech", sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
