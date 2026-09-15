@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>LumiEco - Iluminación Inteligente</title>
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Oswald:wght@200..700&family=Share+Tech&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
@@ -16,7 +15,7 @@
 <body>
 
     <nav>
-        
+
         <h1 class="logo">LumiEco</h1>
 
         <ul class="menu">
@@ -25,159 +24,205 @@
             <li><a href="#componentes">Components</a></li>
         </ul>
 
-        <button class="btn">
+        <a href="proceso.html" class="btn">
             Get started
-        </button>
+        </a>
 
     </nav>
 
-    
+
     <main class="principal">
 
-    <div class="inicio">
+        <section class="inicio">
 
-        <div class="texto">
-            <h2>Iluminación Inteligente y Sostenible</h2>
+            <div class="texto">
 
-            <p class="descripcion">
-                LumiEco es un sistema automatizado que utiliza la plataforma Arduino
-                para detectar presencia humana, encendiendo la luz solo cuando es necesaria.
-                Un paso sencillo para reducir drásticamente el desperdicio energético
-                en entornos residenciales o de taller.
-            </p>
+                <h2>Iluminación Inteligente y Sostenible</h2>
 
-            <div class="botones">
-                <button class="btn-principal">Ver Prototipo</button>
-                <button class="btn-secundario">Saber Más</button>
+                <p class="descripcion">
+                    LumiEco es un sistema automatizado que utiliza la plataforma Arduino
+                    para detectar presencia humana, encendiendo la luz solo cuando es necesaria.
+                    Un paso sencillo para reducir drásticamente el desperdicio energético
+                    en entornos residenciales o de taller.
+                </p>
+
+                <div class="botones">
+
+                    <button class="btn-principal">
+                        Ver Prototipo
+                    </button>
+
+                    <button class="btn-secundario">
+                        Saber Más
+                    </button>
+
+                </div>
+
             </div>
-        </div>
 
-        <div class="imagen-prototipo">
-            <img src="boceto.jpeg" alt="Boceto del prototipo LumiEco">
-        </div>
 
-    </div>
+            <div class="imagen-prototipo">
+                <img src="boceto.jpeg" alt="Boceto del prototipo LumiEco">
+            </div>
 
-     <section class="parallax-container">
+        </section>
+
+        <section class="parallax-container">
+
             <div>
 
                 <section id="problema">
-                    
+
                     <h2>El Desafío del Desperdicio Energético</h2>
+
                     <p>
                         Las luces olvidadas representan un porcentaje masivo del consumo
-                        fantasma en hogares y oficinas.Un sistema que no responde a la
+                        fantasma en hogares y oficinas. Un sistema que no responde a la
                         presencia humana es ineficiente por diseño.
                     </p>
 
-                    <p> Muchas veces las luces permanecen encendidas incluso cuando no hay
+                    <p>
+                        Muchas veces las luces permanecen encendidas incluso cuando no hay
                         personas en el lugar, generando un gasto energético que podría evitarse.
                     </p>
-                    
+
                 </section>
+
             </div>
-     </section>
-                
+
+        </section>
+
         <section id="solucion">
 
             <h2>Nuestra Solución: LumiEco</h2>
-            <p>LumiEco busca solucionar este problema mediante un sistema inteligente
-               capaz de detectar la presencia humana y controlar automáticamente la iluminación.
+            <p>
+                LumiEco busca solucionar este problema mediante un sistema inteligente
+                capaz de detectar la presencia humana y controlar automáticamente la iluminación.
             </p>
 
-        </section>
 
-        <div class="cuadros">
-            
-            <div class="cuadro">
-                <h3>Paso 1</h3>
-                <h2>Detencion</h2>
-                <p>El sensor PIR detecta movimiento en el área de cobertura.</p>
-            </div>
-            
-            <div class="cuadro">
-                <h3>Paso 2</h3>
-                <h2>Procesamiento</h2>
-                <p>Arduino Uno recibe la señal y ejecuta la lógica programada.</p>
-            </div>
-            
-            <div class="cuadro">
-                <h3>Paso 3</h3>
-                <h2>Accion</h2>
-                <p>El LED se enciende mientras hay presencia. Se apaga al no detectar movimiento.</p>
-            </div>
-            
-        </div>
+            <section class="cuadros">
+
+                <article class="cuadro">
+                    <h3>Paso 1</h3>
+                    <h2>Detección</h2>
+                    <p>
+                        El sensor PIR detecta movimiento en el área de cobertura.
+                    </p>
+                </article>
+
+
+                <article class="cuadro">
+                    <h3>Paso 2</h3>
+                    <h2>Procesamiento</h2>
+                    <p>
+                        Arduino Uno recibe la señal y ejecuta la lógica programada.
+                    </p>
+
+                </article>
+
+                <article class="cuadro">
+                    <h3>Paso 3</h3>
+                    <h2>Acción</h2>
+                    <p>
+                        El LED se enciende mientras hay presencia.
+                        Se apaga al no detectar movimiento.
+                    </p>
+                </article>
+
+            </section>
+
+        </section>
 
         <section id="componentes">
-
-     <h2>Componentes</h2>
-     <p>Elementos utilizados para construir el prototipo LumiEco.</p>
-
+            <h2>Componentes</h2>
+            <p>
+                Elementos utilizados para construir el prototipo LumiEco.
+            </p>
         </section>
 
-        <h2>Anatomia de LumiEco</h2>
+        <section>
 
-        <div class="anatomia-cuadros">
+            <h2>Anatomía de LumiEco</h2>
 
-            <div class="anatomia-cuadro">
-                <h3>Arduino Uno</h3>
-                <hr>
-                <p>El cerebro del sistema. Microcontrolador que procesa
-                las entradas del sensor y gestiona el estado de salida.</p>
-                <span>VOLTAJE: 5V</span>
-            </div>
+            <section class="anatomia-cuadros">
 
-            <div class="anatomia-cuadro">
-                <h3>Sensor PIR</h3>
-                <hr>
-                <p>Sensor infrarrojo pasivo para detectar movimiento
-                humano en el entorno cercano.</p>
-                <span>ESTADO: SENSING</span>
-            </div>
+                <article class="anatomia-cuadro">
+                    <h3>Arduino Uno</h3>
+                    <hr>
+                    <p>
+                        El cerebro del sistema. Microcontrolador que procesa
+                        las entradas del sensor y gestiona el estado de salida.
+                    </p>
+                    <span>VOLTAJE: 5V</span>
+                </article>
 
-            <div class="anatomia-cuadro">
-                <h3>LED</h3>
-                <hr>
-                <p>Fuente de luz que responde a la lógica del Arduino.
-                Simula la lámpara final de la habitación.</p>
-                <span>SALIDA: ACTIVA</span>
-            </div>
+                <article class="anatomia-cuadro">
+                    <h3>Sensor PIR</h3>
+                    <hr>
+                    <p>
+                        Sensor infrarrojo pasivo para detectar movimiento
+                        humano en el entorno cercano.
+                    </p>
+                    <span>ESTADO: SENSING</span>
+                </article>
 
-            <div class="anatomia-cuadro">
-                <h3>Protoboard</h3>
-                <hr>
-                <p>Placa de pruebas para conectar de forma segura y sin
-                soldadura los componentes electrónicos.</p>
-            </div>
 
-            <div class="anatomia-cuadro">
-                <h3>Estructura de Madera</h3>
-                <hr>
-                <p>Soporte físico sostenible fabricado en madera o
-                cartón reciclado, alojando el montaje de forma ordenada.</p>
-            </div>
+                <article class="anatomia-cuadro">
+                    <h3>LED</h3>
+                    <hr>
+                    <p>
+                        Fuente de luz que responde a la lógica del Arduino.
+                        Simula la lámpara final de la habitación.
+                    </p>
+                    <span>SALIDA: ACTIVA</span>
 
-        </div>
+                </article>
+
+                <article class="anatomia-cuadro">
+                    <h3>Protoboard</h3>
+                    <hr>
+                    <p>
+                        Placa de pruebas para conectar de forma segura y sin
+                        soldadura los componentes electrónicos.
+                    </p>
+
+                </article>
+
+                <article class="anatomia-cuadro">
+                    <h3>Estructura de Madera</h3>
+                    <hr>
+                    <p>
+                        Soporte físico sostenible fabricado en madera o
+                        cartón reciclado, alojando el montaje de forma ordenada.
+                    </p>
+
+                </article>
+
+            </section>
+        </section>
+
 
     </main>
-    
+
     <footer class="footer">
 
-        <h2 class="footer-logo">LumiEco</h2>
-
+        <h2 class="footer-logo">
+            LumiEco
+        </h2>
         <div class="footer-enlaces">
+
             <a href="#">Documentation</a>
             <a href="#">Source Code</a>
             <a href="#">Sustainability Report</a>
             <a href="#">Contact Us</a>
-        </div>
 
+        </div>
         <p class="copyright">
-            © 2024 LumiEco Robotics Project. Sustainable Engineering for a Brighter Future.
+            © 2024 LumiEco Robotics Project.
+            Sustainable Engineering for a Brighter Future.
         </p>
 
     </footer>
-
 </body>
 </html>

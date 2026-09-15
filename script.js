@@ -20,4 +20,5 @@ console.log( "Hace mucho frio" );
 // Necesita 3 condiciones con if, else if y else.
 
 // 4. ¿Qué función cumple else?
-// else ejecuta una instrucción cuando ninguna de las condiciones anteriores se cumple, "la temperatura es mayor hace mucho calor si la temperatua es mayor a 30 grados celcius".
+// else ejecuta una instrucción cuando ninguna de las condiciones anteriores se cumple,
+//  "la temperatura es mayor hace mucho calor si la temperatua es mayor a 30 grados celcius".
