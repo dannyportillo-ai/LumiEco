@@ -70,11 +70,11 @@ nav{
 transform:scale(1.05);
 box-shadow: 25px 25px 10px rgba(0, 0, 0, 0.2);
 }
+
 .botones{
     display: flex;
     gap: 15px;
 }
-
 
 .btn-principal{
     background: #0d5b18;

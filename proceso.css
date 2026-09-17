@@ -16,3 +16,64 @@ h2 {
     color: rgb(3, 170, 25);
 }
 
+.seccion {
+    background-color: white;
+    border: 1px solid rgb(3, 170, 25);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.seccion p {
+    color: #555;
+    font-family: "Oswald", sans-serif;
+    line-height: 1.6;
+}
+
+.seccion h3 {
+    color: #28713b;
+    font-family: "Oswald", sans-serif;
+}
+
+.materiales {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.material {
+    background-color: white;
+    border: 1px solid rgb(3, 170, 25);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.material h3 {
+    color: rgb(3, 170, 25);
+    font-family: "Oswald", sans-serif;
+}
+
+.material p {
+    color: #555;
+}
+
+.pasos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.paso {
+    background-color: white;
+    border: 1px solid rgb(3, 170, 25);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.paso span {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(3, 170, 25);
+}
+
