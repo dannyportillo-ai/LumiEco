@@ -157,7 +157,7 @@ h2 {
 }
 
 .boceto img {
-    width: 100%;
+    width: 50%;
     max-width: 400px;
     border-radius: 10px;
     border: 1px solid #03aa19;
@@ -166,4 +166,17 @@ h2 {
 .texto-diseño h3 {
     color: #28713b;
     font-family: "Oswald", sans-serif;
+}
+
+.material,
+.paso,
+.prueba {
+    transition: 0.3s;
+}
+
+.menua:hover,
+.paso:hover,
+.prueba:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
