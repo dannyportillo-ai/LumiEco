@@ -1,0 +1,72 @@
+#semanas {
+    padding: 30px 5%;
+    background: #f4f7f4;
+}
+
+#semanas > h2 {
+    text-align: center;
+    color: #176b32;
+    margin-bottom: 30px;
+}
+
+.semana {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 25px;
+    background: white;
+    border: 1px solid #d5e3d7;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow-x: auto;
+}
+
+.semana h3 {
+    text-align: left;
+    color: #176b32;
+    margin: 0 0 20px;
+}
+
+.semana > p {
+    text-align: left;
+    margin: 15px 0;
+}
+
+.tabla-plan {
+    width: 100%;
+    min-width: 650px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    table-layout: auto;
+}
+
+.tabla-plan th,
+.tabla-plan td {
+    border: 1px solid #cbd8cd;
+    padding: 12px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.tabla-plan th {
+    background: #dff0e2;
+    color: #205a2d;
+    text-align: center;
+}
+
+.tabla-plan tbody tr:nth-child(even) {
+    background: #f3f8f3;
+}
+
+.tabla-plan tbody tr:hover {
+    background: #eaf5eb;
+}
+
+.semana .resultado {
+    padding: 12px;
+    background: #edf7ee;
+    border-radius: 8px;
+    text-align: left;
+    color: #205a2d;
+}
